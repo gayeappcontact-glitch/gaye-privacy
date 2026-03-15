@@ -5,47 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gizlilik Politikası - Gaye.</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { color: #1a1a1a; border-bottom: 2px solid #f1f5f9; padding-bottom: 10px; }
-        h2 { color: #334155; margin-top: 30px; }
-        .highlight { background-color: #f8fafc; padding: 15px; border-left: 4px solid #334155; margin: 20px 0; }
-        footer { margin-top: 50px; font-size: 0.9em; color: #64748b; text-align: center; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #1a1a1a;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #334155;
+            margin-top: 30px;
+        }
+        .highlight {
+            background-color: #f8fafc;
+            padding: 15px;
+            border-left: 4px solid #334155;
+            margin: 20px 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #64748b;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
 
     <h1>Gizlilik Politikası</h1>
-    <p>Son Güncelleme: 9 Mart 2026</p>
+    <p>Son Güncelleme: 15 Mart 2026</p>
 
-    <p><strong>Gaye.</strong> mobil uygulaması ("Uygulama") olarak gizliliğinize büyük önem veriyoruz. Bu politika, verilerinizin nasıl işlendiği ve korunacağı hakkında sizi bilgilendirmek amacıyla hazırlanmıştır.</p>
+    <p><strong>Gaye.</strong> mobil uygulaması ("Uygulama") olarak gizliliğinize önem veriyoruz. Bu Gizlilik Politikası, Uygulama’yı kullanırken hangi verilerin işlendiğini, bu verilerin hangi amaçlarla kullanıldığını ve nasıl korunduğunu açıklamak amacıyla hazırlanmıştır.</p>
 
     <div class="highlight">
-        <strong>Özet:</strong> Gaye. uygulaması kişisel verilerinizi toplamaz, saklamaz veya paylaşmaz. Tüm verileriniz yerel olarak cihazınızda tutulur.
+        <strong>Özet:</strong> Gaye. uygulamasında bazı kullanıcı verileri hesap oluşturma, giriş işlemleri, uygulama deneyiminin geliştirilmesi ve karakter analizi özelliklerinin çalışması için işlenebilir. Sohbet botu ile yaptığınız konuşmalar cihazınızda saklanır; bu konuşmalar tarafımızca kendi sunucularımızda depolanmaz. Yapay zeka özellikleri kapsamında OpenAI API kullanılmaktadır.
     </div>
 
-    <h2>1. Veri Toplama ve Kullanımı</h2>
-    <p>Uygulamamız, kullanıcıdan herhangi bir kişisel veri (isim, e-posta, telefon vb.) talep etmez. Uygulama içerisinde oluşturduğunuz tüm içerikler, seçtiğiniz kategoriler ve favori ilham cümleleriniz <strong>sadece kendi cihazınızda</strong> saklanır.</p>
-
-    <h2>2. Ödeme Sistemi ve Abonelikler</h2>
-    <p>Uygulama, uygulama içi satın alımlar (Aylık ve Yıllık Abonelikler) sunmaktadır. Ödeme işlemleri <strong>RevenueCat</strong> altyapısı ve Apple App Store aracılığıyla gerçekleştirilir.</p>
+    <h2>1. Toplanan Veriler</h2>
+    <p>Uygulama kapsamında aşağıdaki veri türleri işlenebilir:</p>
     <ul>
-        <li><strong>Premium Avantajları:</strong> Abonelik kapsamında kategori sınırı 2'den 11'e çıkarılır ve favori ekleme slotları sınırsız hale getirilir.</li>
-        <li><strong>Ödeme Verileri:</strong> Kredi kartı veya ödeme bilgileriniz tarafımızca görülmez ve saklanmaz. Bu veriler tamamen Apple'ın güvenli ödeme altyapısı tarafından yönetilir.</li>
+        <li><strong>E-posta adresi</strong></li>
+        <li><strong>Kullanıcı adı</strong></li>
+        <li><strong>Kullanıcının seçtiği gayeler / kategori tercihleri</strong></li>
+        <li><strong>Karakter analizi özelliğiyle ilişkili uygulama verileri</strong></li>
     </ul>
 
-    <h2>3. İzinler ve Bildirimler</h2>
-    <p>Uygulama, size günlük gayelerinizi hatırlatmak için yalnızca <strong>Bildirim İzni</strong> talep eder. </p>
+    <p>Bu veriler, kullanıcı hesabının oluşturulması ve yönetilmesi, giriş/kayıt işlemlerinin yürütülmesi, uygulama deneyiminin geliştirilmesi ve uygulama içindeki bazı özelliklerin çalıştırılması amacıyla kullanılabilir.</p>
+
+    <h2>2. Verilerin Nerede Saklandığı</h2>
+    <p>Hesap oluşturma, giriş işlemleri, seçilen gayeler ve karakter analiziyle ilgili bazı veriler <strong>Supabase</strong> altyapısı üzerinde saklanabilir.</p>
+
+    <p><strong>Sohbet botu ile yaptığınız konuşmalar ise cihazınızda saklanır.</strong> Bu konuşmalar tarafımızca ayrıca kendi sunucularımızda depolanmaz.</p>
+
+    <h2>3. Yapay Zeka Özellikleri ve OpenAI Kullanımı</h2>
+    <p>Uygulamadaki yapay zeka destekli özellikler, örneğin <strong>rehber sohbet botu</strong> ve <strong>karakter analizi</strong>, <strong>OpenAI API</strong> kullanılarak çalıştırılabilir.</p>
+
     <ul>
-        <li>Bildirimler <strong>yerel (local notification)</strong> olarak çalışır.</li>
-        <li>Herhangi bir uzak sunucudan veri gönderimi yapılmaz.</li>
-        <li>Bu izni dilediğiniz zaman cihaz ayarlarından kapatabilirsiniz.</li>
+        <li>Sohbet botu ile paylaştığınız içerikler, ilgili yapay zeka yanıtının üretilmesi amacıyla OpenAI hizmetine iletilebilir.</li>
+        <li>Bu konuşmalar tarafımızca kendi sunucularımızda depolanmaz.</li>
+        <li>Sohbet geçmişi cihazınızda tutulabilir.</li>
+        <li>OpenAI üzerinden işlenen veriler, OpenAI’ın kendi gizlilik politikası ve hizmet şartlarına tabi olabilir.</li>
     </ul>
 
-    <h2>4. Reklamlar ve Üçüncü Taraflar</h2>
-    <p>Gaye. uygulaması içerisinde herhangi bir reklam bulunmamaktadır. Verileriniz reklam hedeflemesi amacıyla üçüncü taraflarla paylaşılmaz.</p>
+    <p>Yapay zeka özelliklerini kullanırken, hassas kişisel bilgileri paylaşmamanızı öneririz.</p>
 
-    <h2>5. İletişim</h2>
-    <p>Bu gizlilik politikası ile ilgili sorularınız için bizimle iletişime geçebilirsiniz; gaye.app.contact@gmail.com</p>
+    <h2>4. Abonelikler ve Ödeme İşlemleri</h2>
+    <p>Uygulama içerisinde abonelik özellikleri sunulabilir. Premium abonelik, örneğin <strong>Gaye Rehber sohbet botu için günlük 100 mesaj hakkı</strong>, <strong>karakter analizi özelliğinin açılması</strong> ve <strong>ek gaye kategorisi seçebilme</strong> gibi avantajlar sağlayabilir. Ücretsiz planda ise bazı kullanım limitleri uygulanabilir.</p>
+
+    <p>Aboneliklerin yönetimi ve uygulama içi satın alma işlemleri <strong>RevenueCat</strong> altyapısı ve Apple’ın uygulama içi satın alma sistemi üzerinden yürütülür.</p>
+
+    <ul>
+        <li>Ödeme bilgileriniz (örneğin kredi kartı bilgileri) tarafımızca görülmez ve saklanmaz.</li>
+        <li>Ödeme işlemleri Apple tarafından güvenli şekilde işlenir.</li>
+        <li>RevenueCat, abonelik durumunun doğrulanması ve yönetimi için sınırlı teknik veriler işleyebilir.</li>
+    </ul>
+
+    <h2>5. Bildirimler</h2>
+    <p>Uygulama, yalnızca kullanıcıya hatırlatma sunabilmek amacıyla <strong>bildirim izni</strong> isteyebilir.</p>
+    <ul>
+        <li>Bildirimler <strong>yerel bildirim (local notification)</strong> olarak çalışır.</li>
+        <li>Push bildirim altyapısı kullanılmamaktadır.</li>
+        <li>Bildirim iznini dilediğiniz zaman cihaz ayarlarınızdan kapatabilirsiniz.</li>
+    </ul>
+
+    <h2>6. Reklam, Takip ve Üçüncü Taraf Paylaşımı</h2>
+    <p>Uygulama içerisinde reklam bulunmamaktadır. Kullanıcılar, uygulamalar veya web siteleri arasında davranışsal reklamcılık amacıyla takip edilmez.</p>
+
+    <p>Verileriniz satılmaz. Ancak uygulamanın çalışması için aşağıdaki üçüncü taraf hizmet sağlayıcılar kullanılabilir:</p>
+    <ul>
+        <li><strong>Supabase</strong> – kullanıcı hesabı, giriş/kayıt süreçleri ve bazı uygulama verilerinin saklanması için</li>
+        <li><strong>RevenueCat</strong> – aboneliklerin yönetimi ve doğrulanması için</li>
+        <li><strong>OpenAI</strong> – yapay zeka sohbet botu ve karakter analizi özelliklerinin çalıştırılması için</li>
+    </ul>
+
+    <h2>7. Veri Güvenliği</h2>
+    <p>Kullanıcı verilerini korumak için makul teknik ve organizasyonel önlemler alınmaya çalışılmaktadır. Bununla birlikte, internet üzerinden yapılan hiçbir veri aktarımının veya elektronik depolama yönteminin tamamen kusursuz güvenlik sağlayacağı garanti edilemez.</p>
+
+    <h2>8. Hesap ve Veri Silme</h2>
+    <p>Uygulama içinde hesap silme özelliği sunuluyorsa, kullanıcı hesabınızı ve ilişkili verilerinizi uygulama içinden silme talebinde bulunabilirsiniz. Veri silme talepleriyle ilgili destek almak için aşağıdaki iletişim adresinden bizimle iletişime geçebilirsiniz.</p>
+
+    <h2>9. Yaş Sınırı</h2>
+    <p>Uygulama <strong>16 yaş ve üzeri</strong> kullanıcılar için uygundur. 16 yaşın altındaki kişiler tarafından kullanılmak üzere tasarlanmamıştır.</p>
+
+    <h2>10. Bu Politikanın Güncellenmesi</h2>
+    <p>Bu Gizlilik Politikası zaman zaman güncellenebilir. Güncellenen sürüm Uygulama içinde veya ilgili sayfada yayınlandığı tarihten itibaren geçerli olur.</p>
+
+    <h2>11. İletişim</h2>
+    <p>Bu Gizlilik Politikası ile ilgili sorularınız için bizimle şu adresten iletişime geçebilirsiniz:</p>
+    <p><strong>gaye.app.contact@gmail.com</strong></p>
 
     <footer>
         &copy; 2026 Yasin Simsek
